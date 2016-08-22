@@ -1,0 +1,122 @@
+@import 'https://fonts.googleapis.com/css?family=Quicksand|Raleway|Work+Sans:300';
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.quicksand{
+    font-family: 'Quicksand'
+}
+.worksans{
+    font-family: "Work Sans"
+}
+.flex-box{
+display: flex;
+flex-direction: row;
+}
+.flex-body-left{
+
+    height: 100%;
+    width: 100%;
+        border-right: solid #ccc thin;
+}
+.flex-body-right{
+
+    height: 100%;
+    width: 66%;
+    padding-left: 17px;
+
+}
+.headerInfo{
+    margin-left: 26px;
+
+    margin-top: 26px;
+    display: flex;
+}
+.headerImage{
+    background-image: url('img/mike.jpg');
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 160px;
+    border-radius: 90px;
+    background-position-y: 47;
+    background-position-x: -28px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     min-width: 100px;
+     min-height: 100px;
+}
+.header-bio{
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.header-name{
+    font-family: 'Quicksand';
+    font-size: 26px;
+}
+.web-developer{
+    font-size: 14px;
+    font-family: 'Quicksand';
+    color: tomato;
+    margin: 12px;
+}
+.profile-section{
+    padding: 31px;
+
+    display: flex;
+    flex-direction: row;
+}
+.profile-about-text{
+
+    margin-top: 25px;
+    margin-left: -25px;
+    padding-left: 15px;
+    border-left: solid #ccc thin;
+    font-size: 16px;
+}
+.profile-text{
+    font-size: 20px;
+}
+.project-section{
+padding: 31px;
+
+}
+.project-title{
+font-size: 20px;
+}
+.project-info{
+padding: 8px;
+font-size: 14px;
+margin-left: 15px;
+    color: #7b7777;
+    margin-bottom: 4px;
+}
+.project-name a {
+text-decoration: none;
+color: black;
+}
+.project-name a:hover{
+    color: tomato;
+}
+.project-box{
+    margin-top: 25px;
+    margin-left:35px;
+    padding-left: 15px;
+    border-left: solid #ccc thin;
+    font-size: 16px;
+}
+.project-name{
+    font-style: italic;
+}
+.project-info a {
+    text-decoration: none;
+    color: #7b7777;
+
+
+}
+.project-info a:hover {
+color: tomato;
+
+}
